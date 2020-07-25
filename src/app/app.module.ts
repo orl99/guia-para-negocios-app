@@ -17,13 +17,6 @@ import { HttpLoaderInterceptor } from 'src/app/services/interceptors/httpLoaderI
 // Modules
 import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 
-
-// NGXS
-// import { NgxsModule } from '@ngxs/store';
-// import { NgxsReduxDevtoolsPluginModule } from '@ngxs/devtools-plugin';
-// import { NgxsLoggerPluginModule } from '@ngxs/logger-plugin';
-// import { NameState } from './path/name.state';
-
 import { HTTP } from '@ionic-native/http/ngx';
 
 import { Facebook } from '@ionic-native/facebook/ngx';
@@ -36,11 +29,6 @@ import { Facebook } from '@ionic-native/facebook/ngx';
     IonicModule.forRoot(),
     AppRoutingModule,
     HttpClientModule,
-    // NgxsModule.forRoot([
-    //   // NameState
-    // ]),
-    // NgxsReduxDevtoolsPluginModule.forRoot(),
-    // NgxsLoggerPluginModule.forRoot()
   ],
   providers: [
     StatusBar,
